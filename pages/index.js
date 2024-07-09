@@ -4,7 +4,12 @@ function Home() {
   return (
     <>
       <Image
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNSCCFTaDQ_ovBKJl1rmbywKoXnPzUzCEdWA&usqp=CAU"
+        loader={() =>
+          "https://geekdama.com/wp-content/uploads/2021/03/one-piece-sanji-apaixonado-coracao-720x405.jpg"
+        }
+        src="one-piece-sanji-apaixonado-coracao-720x405.jpg"
+        width={720}
+        height={405}
         alt="Imagem de um personagem de anime com coração no lugar dos olhos."
       />
       <h2>Debora Swan</h2>
